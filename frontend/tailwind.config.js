@@ -11,7 +11,11 @@ module.exports = {
     "./*.{vue,js,ts}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'pri' : '#F0D808'
+      }
+    },
   },
   plugins: [],
 }
